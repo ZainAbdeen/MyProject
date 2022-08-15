@@ -1,0 +1,323 @@
+html,body
+{
+
+	font-family: 'Heebo', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #E5E5E5;
+}
+
+header nav
+{
+  height: 50px;
+  background-color: #fff;
+  display: flex;/*always do in parent*/
+  justify-content: flex-end;/*horizontally property works*/
+  padding-right: 60px;
+
+}
+header nav ul
+{
+   margin: 0px;
+   display: flex;
+   align-items: center;/*row property works*/
+   gap: 33px;
+}
+header nav ul li
+{
+	list-style-type: none;
+}
+header nav ul li a
+{
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 29px;
+	text-align: right;
+     color: #000000;
+
+}
+/*hero section*/
+.hero_Section
+{
+	background-color: #fff;
+
+}
+ .hero_Section .hero_inner
+{
+	max-width: 960px;
+	margin: 0 auto;
+    padding: 158px 0;
+    display: flex;
+    align-items: center;
+}
+h1,p,h3,h2,h4
+{
+	margin: 0px;
+
+}
+.Portfolio_name
+{
+	font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 60px;
+}
+
+.hero_Section .hero_inner .col_right
+{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex: 1
+}
+.hero_Section .hero_inner .col_left p
+{
+  margin-top: 40px;
+  font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+/* Dark Color */
+
+color: #21243D;
+}
+
+.hero_Section .hero_inner .col_left
+{
+	max-width: 497px;
+}
+
+.hero_Section .hero_inner .col_left .button
+{
+	position: absolute;
+    margin-top: 47px;
+    background: #FF6464;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+padding: 10px 20px;
+text-align: center;
+line-height: 20px;
+color: #FFFFFF;
+
+}
+.Post_Section
+{
+	background-color: #EDF2FA;
+	 padding: 32px 0;
+}
+
+.Post_Section .Posts_inner
+{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.Post_headers
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.Post_Section .Post_headers h2
+{
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 60px;
+	color: #21243D;
+}
+.Post_Section .Post_headers a{
+	font-family: Heebo;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-decoration: none;
+color: #00A8CC;
+}
+.Posts
+{
+	display: flex;
+	gap: 20px;
+
+
+}
+.Posts .Post_items
+{
+	background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+border-radius: 4px;
+padding: 24px;
+}
+.Post_items header h3
+{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+margin-bottom: 17px;
+line-height: 38px;
+
+
+
+/* Dark Color */
+
+color: #21243D;
+}
+.meta
+{
+	display: flex;
+	gap: 26px;
+	font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+
+/* Dark Color */
+
+color: #21243D;
+	
+}
+.Posts .Post_items p
+{
+     font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+/* Dark Color */
+
+color: #21243D;
+margin-top: 11px;
+}
+.inner_BlogSection
+{
+	max-width: 960px;
+	margin: 0 auto;
+
+}
+.Blog_Section
+{
+  padding: 32px 0;
+  background-color: #fff;
+}
+.inner_BlogSection h3
+{
+
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 60px;
+}
+.Blog_items
+{
+	display: flex;
+	gap: 18px;
+	border-bottom: 1px solid #E0E0E0;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+.right_items h3
+{
+	font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 44px;
+margin-bottom: 16px;
+/* identical to box height */
+
+
+/* Dark Color */
+
+color: #21243D;
+}
+.item_meta
+{
+	display: flex;
+	gap: 36px;
+
+}
+.Dashitems
+{
+	font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+
+/* Light */
+
+color: #8695A4;
+}
+.Featured
+{
+	
+left: 410px;
+top: 1141px;
+width: 62px;
+height: 25px;
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+text-align: center;
+/* identical to box height, or 333% */
+background: #142850;
+border-radius: 16px;
+
+color: #FFFFFF;
+
+}
+.Blog_paragraph p
+{
+	font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+/* Dark Color */
+
+color: #21243D;
+margin-top: 17px;
+
+
+}
+.footer_Icons
+{
+	background-color: #fff;
+}
+.inner_footer 
+{
+   
+   display: flex;
+   justify-content: center;
+   gap: 35px;
+}
+
+.inner_para
+{
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+.inner_para p
+{
+	font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #21243D;
+}
+
+
+

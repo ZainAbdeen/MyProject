@@ -1,0 +1,341 @@
+@media only screen and (max-width: 1200px)
+{
+
+       .hero_Section .hero_inner
+	{
+	
+    flex-direction: column-reverse;
+    
+	}
+	.col_left
+	{
+		text-align: center;
+	}
+	.col_left .Portfolio_name
+	{
+		margin-top: 34px;
+	}
+	.hero_Section .hero_inner .col_left .button
+	{
+		margin-left: 140px;
+	}
+	.Posts
+	{
+		flex-direction: column-reverse;
+	}
+	.hero_Section .hero_inner .col_left p
+	{
+		font-weight: 380;
+font-size: 12px;
+line-height: 24px;
+	}
+
+	.Post_headers h2
+	{
+		font-family: Heebo;
+		font-weight: 20;
+	font-size: 8px;
+	line-height: 20px;
+	color: #21243D;
+	}
+
+.Post_paragraph
+{
+     font-family: 'Heebo';
+font-style: normal;
+font-weight: 10;
+font-size: 3px;
+line-height: 24px;
+
+/* Dark Color */
+
+color: #21243D;
+margin-top: 11px;
+}
+
+.Blog_paragraph p
+{
+	font-family: 'Heebo';
+font-style: normal;
+font-weight: 5;
+font-size: 1px;
+
+
+/* Dark Color */
+
+color: #21243D;
+margin-top: 11px;
+}
+
+.Post_Section .Post_headers h2
+{
+	font-weight: 10;
+	font-size: 10px;
+	
+	color: #21243D;
+}
+.Post_Section .Post_headers a{
+	font-family: Heebo;
+font-size: 10px;
+font-weight: 10;
+
+
+color: #00A8CC;
+}
+
+}
+
+@media only screen and (max-width: 1023px)
+{
+       .hero_Section .hero_inner
+	{
+	
+    flex-direction: column-reverse;
+    
+	}
+	.col_left
+	{
+		text-align: center;
+	}
+	.col_left .Portfolio_name
+	{
+		margin-top: 34px;
+	}
+	.hero_Section .hero_inner .col_left .button
+	{
+		margin-left: 140px;
+	}
+	
+	.Posts
+	{
+		flex-direction: column-reverse;
+	}
+
+	.hero_Section .hero_inner .col_left p
+	{
+		font-weight: 380;
+font-size: 12px;
+line-height: 24px;
+	}
+
+	
+	.Post_paragraph
+{
+     font-family: 'Heebo';
+font-style: normal;
+font-weight: 5;
+font-size: 3px;
+line-height: 24px;
+
+/* Dark Color */
+
+color: #21243D;
+margin-top: 11px;
+}
+
+.Blog_paragraph p
+{
+	font-family: 'Heebo';
+font-style: normal;
+font-weight: 5;
+font-size: 1px;
+
+
+/* Dark Color */
+
+color: #21243D;
+margin-top: 11px;
+}
+
+.Post_Section .Post_headers h2
+{
+	font-weight: 10;
+	font-size: 10px;
+	
+	color: #21243D;
+}
+.Post_Section .Post_headers a{
+	font-family: Heebo;
+font-size: 10px;
+font-weight: 10;
+
+
+color: #00A8CC;
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 767px)
+{
+	.hero_Section .hero_inner
+	{
+	
+    flex-direction: column-reverse;
+    
+	}
+	.col_left
+	{
+		text-align: center;
+	}
+	.col_left .Portfolio_name
+	{
+		margin-top: 34px;
+	}
+	.hero_Section .hero_inner .col_left .button
+	{
+		margin-left: 140px;
+	}
+	
+	.hero_Section .hero_inner .col_left p
+	{
+		font-weight: 380;
+font-size: 12px;
+line-height: 24px;
+	}
+	.Posts
+	{
+		flex-direction: column-reverse;
+	}
+
+	.Post_headers h2
+	{
+		font-family: Heebo;
+		font-weight: 10;
+	font-size: 8px;
+	line-height: 20px;
+	color: #21243D;
+	}
+
+	.Post_paragraph
+{
+     font-family: 'Heebo';
+font-style: normal;
+font-weight: 10;
+font-size: 3px;
+line-height: 24px;
+
+/* Dark Color */
+
+color: #21243D;
+margin-top: 11px;
+}
+.Blog_paragraph p
+{
+	font-family: 'Heebo';
+font-style: normal;
+font-weight: 5;
+font-size: 1px;
+
+
+/* Dark Color */
+
+color: #21243D;
+margin-top: 11px;
+}
+.Post_Section .Post_headers h2
+{
+	font-weight: 10;
+	font-size: 10px;
+	
+	color: #21243D;
+}
+.Post_Section .Post_headers a{
+	font-family: Heebo;
+font-size: 10px;
+font-weight: 10;
+
+
+color: #00A8CC;
+}
+}
+
+@media only screen and (max-width: 479px)
+{
+	.hero_Section .hero_inner
+	{
+	
+    flex-direction: column-reverse;
+    
+	}
+	.col_left
+	{
+		text-align: center;
+	}
+	.col_left .Portfolio_name
+	{
+		margin-top: 34px;
+	}
+	.hero_Section .hero_inner .col_left .button
+	{
+		margin-left: 140px;
+	}
+	
+	.Posts
+	{
+		flex-direction: column-reverse;
+	}
+
+    .hero_Section .hero_inner .col_left p
+	{
+		font-weight: 380;
+font-size: 12px;
+line-height: 24px;
+	}
+
+	.Post_headers h2
+	{
+		font-family: Heebo;
+		font-weight: 5;
+	font-size: 8px;
+	line-height: 20px;
+	color: #21243D;
+	}
+
+	.Post_paragraph 
+{
+     font-family: 'Heebo';
+font-style: normal;
+font-weight: 10;
+font-size: 3px;
+line-height: 24px;
+
+/* Dark Color */
+
+color: #21243D;
+margin-top: 11px;
+}
+.Blog_paragraph p
+{
+	font-family: 'Heebo';
+font-style: normal;
+font-weight: 5;
+font-size: 1px;
+
+
+/* Dark Color */
+
+color: #21243D;
+margin-top: 11px;
+}
+
+.Post_Section .Post_headers h2
+{
+	font-weight: 10;
+	font-size: 10px;
+	
+	color: #21243D;
+}
+.Post_Section .Post_headers a{
+	font-family: Heebo;
+font-size: 10px;
+font-weight: 10;
+
+
+color: #00A8CC;
+}
+}
+
+
